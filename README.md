@@ -347,36 +347,3 @@ Ensure all environment variables are set in your production environment:
 ```bash
 npx prisma migrate deploy
 ```
-
-## 🐛 Troubleshooting
-
-### Receipt Scanner Issues
-- Ensure Gemini API key is valid
-- Check file size (max 5MB)
-- Verify image format support (JPEG, PNG, etc.)
-
-### Email Delivery Issues
-- Verify Resend API key
-- Check sender email configuration
-- Review email template syntax
-
-### Background Jobs Not Running
-- Confirm Inngest endpoint is accessible
-- Check Inngest client configuration
-- Verify function deployments
-
-## 📄 License
-
-This project is private and not licensed for public use.
-
-## 🤝 Contributing
-
-For contribution guidelines, please contact the development team.
-
-## 📧 Support
-
-For support and questions, please contact the development team or check the documentation.
-
----
-
-**Built with ❤️ using Next.js, Prisma, and AI**
